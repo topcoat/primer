@@ -1,0 +1,25 @@
+{
+  "name": "primer",
+  "version": "0.0.0",
+  "description": "An exploration in an object based component style definition.",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "nyc ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/topcoat/primer.git"
+  },
+  "keywords": [
+    "css",
+    "js",
+    "ast",
+    "preprocessor"
+  ],
+  "author": "Garth Braithwaite <garthdb@gmail.com> (http://garthdb.com)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/topcoat/primer/issues"
+  },
+  "homepage": "https://github.com/topcoat/primer#readme"
+}
