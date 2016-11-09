@@ -1,9 +1,14 @@
 import Component from './types/component';
 import ButtonBase from './button-base';
-import {DisabledMixin} from './utils';
+import { DisabledMixin } from './utils';
 
 export default class ButtonComponent extends Component {
+  name = {
+    block: 'button',
+  };
   description = 'A simple button';
+  markup = this.createElement('button');
+  example = 'http://codepen.io/Topcoat/pen/DpKtf';
   mixins = [ButtonBase];
   props = {
     @variable
